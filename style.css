@@ -1,0 +1,125 @@
+*.box{
+    
+    border: 3px solid lime;
+    outline-width: 3px;
+   
+    outline-style: solid;
+    outline-color: red;
+}
+.box1{
+    
+    border: 3px solid lime;
+    outline-width: 3px;
+    
+    outline-style: solid;
+    outline-color: red;
+    
+    height: fit-content;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logo1{
+    width: 40px;
+    height: 50px;
+    border-radius: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    padding: 10px;
+}
+.grid-item {
+    text-align: left;
+    border: 1px solid ;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-containers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.grid-item1{
+    text-align: left;
+    border: 1px solid ;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: inline;
+    
+}
+.grid-item2{
+    text-align: left;
+    border: 1px solid ;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: blue;
+}
+
+
+
+/* create_items */
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="link"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.createbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   margin-left: 200px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.forms{
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+}
+.image {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    flex: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+}
